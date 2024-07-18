@@ -1,0 +1,62 @@
+
+.login-container {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../img/nendangnhap.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.login-form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 50px; /* Giảm padding xuống để phù hợp với kích thước nhỏ hơn */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 400px; /* Giảm chiều rộng xuống */
+    max-width: 90%; /* Sử dụng max-width để đảm bảo phần tử không quá rộng trên các màn hình nhỏ */
+    text-align: center;
+}
+
+
+.login-form h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.login-form input[type='text'],
+.login-form input[type='password'] {
+    border: none;
+    border-bottom: 1px solid #ddd;
+    background-color: transparent;
+    color: #333;
+    outline: none;
+}
+
+.login-form input[type='text']::placeholder,
+.login-form input[type='password']::placeholder {
+    color: #aaa;
+}
+
+.login-form button[type='submit'] {
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s;
+}
+
+.login-form button[type='submit']:hover {
+    background-color: #0056b3;
+}

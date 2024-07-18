@@ -1,0 +1,26 @@
+.search-input {
+    border-radius: 40px; /* bo tròn viền cho ô tìm kiếm */
+    border-color: #ffffff; /* màu viền */
+    background-color: #ffffff ; /* nền trong suốt */
+    color: #ffffff; /* màu chữ */
+    width: 1000px; /* chiều rộng */
+    height: 50px;
+}
+
+.search-button {
+    border-radius: 20px; /* bo tròn viền cho nút tìm kiếm */
+    background-color: #f3f3f3; /* màu nền */
+    color: #ffffff; /* màu chữ */
+}
+
+.search-button:hover {
+    background-color: #f3f3f3; /* màu nền khi rê chuột vào */
+}
+.search-icon {
+    position: absolute;
+    right: 10px; /* Điều chỉnh khoảng cách từ biên phải */
+    top: 50%; /* Đưa icon lên giữa theo chiều dọc */
+    transform: translateY(-50%); /* Đảo ngược lại 50% của chiều cao của chính nó để căn giữa */
+    color: #555; /* Màu của icon */
+    cursor: pointer; /* Biến con trỏ thành bàn phím khi di chuột qua icon */
+}

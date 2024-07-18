@@ -1,0 +1,11 @@
+/* src/App.css */
+@import 'react-big-calendar/lib/css/react-big-calendar.css';
+
+/* .App {
+  text-align: center;
+  margin: 20px;
+} */
+
+.calendar-container {
+  height: 800px;
+}

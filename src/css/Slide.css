@@ -1,0 +1,25 @@
+.slide {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 180px;
+}
+.test {
+    font-family: Arial, sans-serif;
+    color: rgb(56, 95, 166); /* Đổi màu chữ thành màu xanh */
+    font-weight: bold;
+    font-size: 25px;
+    /* Các tùy chỉnh khác cho kiểu dáng của liên kết */
+}
+.text {
+    color: white; /* Đổi màu chữ thành màu xanh */
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+}
+.testt {
+    color: rgb(56, 95, 166); /* Đổi màu chữ thành màu xanh */
+    font-weight: bold;
+    font-size: 35px;
+}
+

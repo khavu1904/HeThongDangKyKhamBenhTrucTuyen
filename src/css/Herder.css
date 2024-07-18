@@ -1,0 +1,88 @@
+.scroll {
+  background-color: #ffffff;
+  max-width: 90%;
+  height: 400px; /* Cập nhật chiều cao lớn hơn */
+  border: 1px solid #ffffff;
+  overflow: hidden; /* Ẩn thanh trượt */
+  position: relative;
+}
+
+.scroll-content {
+  width: 100%; /* Thay đổi chiều rộng về 100% */
+  height: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding-right: 16px; /* Đảm bảo thanh trượt luôn hiển thị */
+  margin-right: -16px; /* Đảm bảo nội dung không tràn ra ngoài phần tử cha */
+}
+
+/* Custom scrollbar */
+.scroll-content::-webkit-scrollbar {
+  height: 8px; /* Giảm chiều cao của thanh trượt */
+  background-color: #f8f9fa;
+}
+
+.scroll-content::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 5px;
+}
+
+.scroll-content::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}
+
+
+/* Card styling */
+.card {
+  flex: 0 0 auto; /* Đảm bảo các thẻ Card không co dãn để nằm trên cùng một hàng */
+  width: 18rem;
+  height: 350px;
+  word-wrap: break-word; /* Đảm bảo từ dài sẽ tự động ngắt xuống dòng */
+}
+
+.card-title, .card-text {
+  overflow: hidden; /* Ẩn văn bản tràn */
+  text-overflow: ellipsis; /* Thêm dấu chấm lửng (...) khi văn bản tràn */
+  white-space: nowrap; /* Ngăn văn bản ngắt dòng */
+}
+
+/* Icon container styling */
+.icon-container a {
+  text-decoration: none; /* Loại bỏ gạch dưới của liên kết */
+  text-align: center;
+}
+
+.icon-container a:hover {
+  text-decoration: none; /* Loại bỏ gạch dưới của liên kết khi hover */
+}
+
+.icon-img {
+  width: 150px; /* Đặt chiều rộng hình ảnh */
+  height: auto;
+  margin: 10px 0; /* Giảm khoảng cách trên và dưới hình ảnh */
+  transition: transform 0.3s, filter 0.3s; /* Hiệu ứng chuyển mượt mà */
+  display: block; /* Đảm bảo hình ảnh được hiển thị dưới dạng khối */
+  margin-left: auto;
+  margin-right: auto; /* Căn giữa hình ảnh theo chiều ngang */
+}
+
+.icon-container:hover .icon-img {
+  filter: brightness(100%); /* Tăng độ sáng của hình ảnh khi hover */
+  transform: scale(1.1); /* Phóng to hình ảnh lên khi hover */
+}
+
+.icon-name {
+  font-size: 18px;
+  display: block; /* Hiển thị mỗi tên trên một dòng */
+}
+
+.name-dichvu {
+  color: rgb(56, 95, 166); /* Đổi màu chữ thành màu xanh */
+  font-weight: bold;
+  font-size: 35px;
+}
+a {
+  color: blue; /* Màu chữ */
+  text-decoration: underline; /* Gạch chân dưới chữ */
+  cursor: pointer; /* Hiển thị con trỏ nhấn */
+}

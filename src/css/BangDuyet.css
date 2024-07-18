@@ -1,0 +1,49 @@
+.manage-patients {
+    padding: 20px;
+  }
+  
+  .header {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .header button {
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .patients-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .patients-table th, .patients-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .patients-table th {
+    background-color: #f4f4f4;
+  }
+  
+  .confirm {
+    background-color: #f1c40f;
+    border: none;
+    padding: 5px 10px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .cancel {
+    background-color: #e74c3c;
+    border: none;
+    padding: 5px 10px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
